@@ -1,0 +1,21 @@
+{
+  "name": "async-test",
+  "version": "0.0.0",
+  "description": "testing",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "async2promise": "babel --plugins async-to-promises works-simple.js --out-file works-simple-promise-from-babel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "babel-plugin-async-to-promises": "^1.0.5",
+    "bluebird": "^3.7.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
